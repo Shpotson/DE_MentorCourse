@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "File list:"
 
 for item in *; do
