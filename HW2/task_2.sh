@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Current PATH: $PATH"
 
 new_directory=$1
