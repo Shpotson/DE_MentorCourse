@@ -3,7 +3,7 @@ echo "File list:"
 for item in *; do
     if [ -d "$item" ]; then
         echo "$item - Folder"
-    else; then
+    else
         permissions=$(ls -l "$item" | awk '{print $1}')
         echo "$item - File, permisions: $permissions"
     fi
